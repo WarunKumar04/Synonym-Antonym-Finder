@@ -12,13 +12,21 @@ File Handling: Reads and processes data from external text files to find relevan
 The program is divided into multiple procedures for modularity:
 
 start: Entry point to prompt the user for input and guide through options (find synonyms, find antonyms, or exit).
+
 find_synonymm: Reads the synonym file and displays synonyms for the entered word.
+
 valid_inputt: Validates the user input for alphabetic characters.
+
 check_for_the_word: Helper function to verify if characters in the input are valid.
+
 convert_the_word_into_lowercase: Converts user input to lowercase for case-insensitive matching.
+
 find_antonym: Reads the antonym file and displays antonyms for the entered word.
+
 quit11: Exits the program gracefully with a thank-you message.
+
 escapee: Handles invalid inputs and prompts for re-entry.
+
 main: Displays a welcome message and initiates the program.
 
 # How to Use
