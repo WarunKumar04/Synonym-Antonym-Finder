@@ -3,9 +3,13 @@ This project is a simple yet functional Synonym and Antonym Finder written in 80
 
 # Features
 Synonym Lookup: Finds and displays synonyms for a given word by reading from a predefined Synonyms.txt file.
+
 Antonym Lookup: Finds and displays antonyms for a given word using the Antonyms.txt file.
+
 Input Validation: Ensures the input word consists of valid English alphabet characters only.
+
 Case-Insensitive Matching: Converts user input to lowercase for consistent and accurate results.
+
 File Handling: Reads and processes data from external text files to find relevant results.
 
 # Program Structure
@@ -31,20 +35,30 @@ main: Displays a welcome message and initiates the program.
 
 # How to Use
 Run the Program: Compile and execute the program using an assembler that supports the Irvine32 library.
+
 Select an Option:
 Find Synonyms: Enter a word to search for synonyms in Synonyms.txt.
+
 Find Antonyms: Enter a word to search for antonyms in Antonyms.txt.
+
 Exit: Exit the program gracefully.
+
 Follow Prompts:
+
 Enter words when prompted.
+
 If the input is invalid, re-enter a valid word as instructed.
 
 # Prerequisites
 Assembler: TASM/MASM or any assembler that supports the Irvine32 library.
+
 Irvine32 Library: Ensure that the Irvine32 library is properly installed and configured.
+
 Text Files: Include Synonyms.txt and Antonyms.txt in the same directory as the executable.
 
 # File Handling
 Synonyms.txt: Contains pairs of words and their synonyms.
+
 Antonyms.txt: Contains pairs of words and their antonyms.
+
 The program reads these files, processes them into buffers, and performs matching to find results.
