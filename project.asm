@@ -1,7 +1,4 @@
 ; project by Warun Kumar k22-4721
-            ;Hassan Baig k22-4696
-            ;Moosa Ahmed k22-4703
-             
 
 include Irvine32.inc
 include macros.inc
